@@ -18,3 +18,7 @@ Before git push -u origin main u should change main branch from master to main w
 git push -u origin main is push the last commit in the main branch inside remote repository labeled origin.
 
 .gitignore file is ignore the file that mentioned in that file
+
+git branch branchName is create a branch labeled branchName
+git branch shows to all branch and your recent branch is colored
+git checkout branchName is for changing branch
