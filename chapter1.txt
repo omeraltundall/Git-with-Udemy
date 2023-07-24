@@ -4,3 +4,5 @@ git init is for initialize the git.
 git status looking for changes that not commited.
 git commit -m "Your commit message" is commit the changes.
 git log looking to commits.
+git diff fileName is check the diff between now and commited 
+git checkout fileName is reverse the changes till the commited way
