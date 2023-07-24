@@ -16,3 +16,5 @@ git remote add origin "Link from github" is open a remote repository named origi
 Before git push -u origin main u should change main branch from master to main with git branch -M main
 
 git push -u origin main is push the last commit in the main branch inside remote repository labeled origin.
+
+.gitignore file is ignore the file that mentioned in that file
