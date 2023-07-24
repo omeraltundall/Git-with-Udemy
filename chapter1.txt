@@ -22,3 +22,23 @@ git push -u origin main is push the last commit in the main branch inside remote
 git branch branchName is create a branch labeled branchName
 git branch shows to all branch and your recent branch is colored
 git checkout branchName is for changing branch
+
+
+
+git config --global user.name "Username" ile git içindeki kullanıcıya isim verebiliriz.
+git config -- global user.email "email@gmail.com" ile kullanıcının mailini hesaba eklemiş oluruz.
+git branch -r ile silinen branchler gösterilir. 
+git branch -d <branchname> ile branchname adlı branch silinir.
+git merge <branchname> ile branchname adındaki branch'i bulunduğumuz branch ile birleştirir.Birleştirirken dikkat edilmesi gereken durumlar vardır.(conflict)
+git restore ile değişiklikler geri alınır.
+git stash ile yapılan değişiklik stash e atılır.
+git stash list ile stash list elde edilir.
+git stash pop ile stashtekiler stashten çıkarılır ve içinden silinir.
+git stash apply <stashId> ile stash listten alınan id'deki değişikliği stashten silmeden uygular.
+git checkout <commitId> ile önceki commite dönebilirsin.Burada da head detached sıkıntısı oluşuyor.
+git reset <commitId> ile commitId'den sonraki commitleri silerek fakat commitleri değişiklikleri silmeden commitId ye dönüş yapar fakat git reset --hard <commitId> yaparsak değişiklikleri de siler.
+git revert <commitId> commiti silmeden commitId'deki değişiklikleri bize verir. Bunu da yeni commit olarak gösterir.
+git diff ile eğer git add yapılmamış ve bir değişiklik yapılmışsa o değişiklikleri gösterir ya da git diff <commitId> yaparak şu anki commit ile commitId deki durumu karşılaştırır.
+git rebase dallanan branchi ana branchle birleştirmek için kullanılır. Fakat bunu yaparken dallanan branch i başkası tarafından kullanılıp kullanılmadığını kontrol et. Dallanan branch'teki tüm commitleri önceden yapılsa bile ana branchten sonra commitlenmiş olarak gösterir.
+git clone <repositoryHTTPs> is clone the repository from http link.
+git remote shows if we are connecting to origin
