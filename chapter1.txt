@@ -6,3 +6,11 @@ git commit -m "Your commit message" is commit the changes.
 git log looking to commits.
 git diff fileName is check the diff between now and commited 
 git checkout fileName is reverse the changes till the commited way
+
+git remote add origin "Link from github" is open a remote repository named origin
+
+
+!!!!!!IMPORTANT!!!!
+Before git push -u origin main u should change main branch from master to main with git branch -M main
+
+git push -u origin main is push the last commit in the main branch inside remote repository labeled origin.
